@@ -8,4 +8,5 @@
     <string name="popular">Popular</string>
     <string name="all">All</string>
     <string name="playlist">Playlist</string>
+    <string name="time_defaut">00:00</string>
 </resources>

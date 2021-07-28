@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".ui.main.MainActivity" />
         <activity android:name=".ui.play.PlayActivity" />
+
+        <service android:name=".service.PLaySongService" />
     </application>
 
 </manifest>

@@ -56,7 +56,7 @@
         android:id="@+id/layoutPlay"
         android:layout_width="@dimen/_72sdp"
         android:layout_height="@dimen/_72sdp"
-        app:layout_constraintBottom_toTopOf="@id/progressBarSong"
+        app:layout_constraintBottom_toTopOf="@id/seekBarSong"
         app:layout_constraintEnd_toStartOf="@id/btnRepeat"
         app:layout_constraintStart_toEndOf="@id/btnShuffle">
 
@@ -96,9 +96,8 @@
         app:layout_constraintTop_toTopOf="@id/layoutPlay"
         app:srcCompat="@drawable/ic_repeat" />
 
-    <ProgressBar
-        android:id="@+id/progressBarSong"
-        style="?android:attr/progressBarStyleHorizontal"
+    <SeekBar
+        android:id="@+id/seekBarSong"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:max="100"
@@ -114,7 +113,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_16sdp"
-        android:text="4:01"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/btnPlaylist"
         app:layout_constraintStart_toStartOf="@id/btnPlaylist" />
@@ -124,7 +122,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/_16sdp"
-        android:text="4:54"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/btnPlaylist"
         app:layout_constraintEnd_toEndOf="@id/btnShare" />
